@@ -1,0 +1,26 @@
+.heroHead{
+  color: #F83002;
+  font-weight: 600;
+}
+.searchJob{
+  width: 40%;
+}
+.searchBtn{
+  width: 10%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color:#6A38C2;
+}
+.searchBtn:hover{
+  background-color: #8c51f1;
+}
+span{
+  color: #6A38C2;
+}
+.jobHeading{
+  display: flex;
+  width: max-content;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
