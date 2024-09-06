@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import styles from "./Navbar.module.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -10,9 +11,9 @@ const Navbar = () => {
         data-bs-theme="dark"
       >
         <div className="container-fluid offset-lg-2">
-          <a className="navbar-brand fw-700" href="#">
+          <Link className="navbar-brand fw-700" to="/">
             JobPulse
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -27,14 +28,18 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link className="nav-link active" aria-current="page" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/jobs"
+                >
                   Jobs
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
@@ -43,15 +48,19 @@ const Navbar = () => {
               </li>
             </ul>
             <div className="d-flex mx-auto">
-              <button
-                type="button"
-                className={`${styles.loginBtn} btn btn-info mx-2`}
-              >
-                LogIn
-              </button>
-              <button type="button" className="btn btn-success">
-                SignUp
-              </button>
+              <Link to="/Login">
+                <button
+                  type="button"
+                  className={`${styles.loginBtn} btn btn-info mx-2`}
+                >
+                  LogIn
+                </button>
+              </Link>
+              <Link to="/signUp">
+                <button type="button" className="btn btn-success">
+                  SignUp
+                </button>
+              </Link>
             </div>
           </div>
         </div>
