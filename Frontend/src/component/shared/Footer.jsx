@@ -17,61 +17,61 @@ const Footer = () => {
             <section className="mb-4">
               {/* Facebook */}
               <a
-                className="btn btn-link btn-floating btn-lg text-dark m-1"
+                className="btn btn-link btn-floating btn-lg text-light m-1"
                 href="#!"
                 role="button"
                 data-mdb-ripple-color="dark"
               >
-                <i className="bi test-light bi-facebook"></i>
+                <i className="bi  bi-facebook"></i>
               </a>
 
               {/* Twitter */}
               <a
-                className="btn btn-link btn-floating btn-lg text-dark m-1"
+                className="btn btn-link btn-floating btn-lg text-light m-1"
                 href="#!"
                 role="button"
                 data-mdb-ripple-color="dark"
               >
-                <i className="bi test-light bi-facebook"></i>
+                <i className="bi  bi-facebook"></i>
               </a>
 
               {/* Google */}
               <a
-                className="btn btn-link btn-floating btn-lg text-dark m-1"
+                className="btn btn-link btn-floating btn-lg text-light m-1"
                 href="#!"
                 role="button"
                 data-mdb-ripple-color="dark"
               >
-                <i className="bi test-light bi-google"></i>
+                <i className="bi  bi-google"></i>
               </a>
 
               {/* Instagram */}
               <a
-                className="btn btn-link btn-floating btn-lg text-dark m-1"
+                className="btn btn-link btn-floating btn-lg text-light m-1"
                 href="#!"
                 role="button"
                 data-mdb-ripple-color="dark"
               >
-                <i className="bi test-light bi-instagram"></i>
+                <i className="bi  bi-instagram"></i>
               </a>
 
               {/* Linkedin */}
               <a
-                className="btn btn-link btn-floating btn-lg text-dark m-1"
+                className="btn btn-link btn-floating btn-lg text-light m-1"
                 href="#!"
                 role="button"
                 data-mdb-ripple-color="dark"
               >
-                <i className="bi test-light bi-linkedin"></i>
+                <i className="bi  bi-linkedin"></i>
               </a>
               {/* Github */}
               <a
-                className="btn btn-link btn-floating btn-lg text-dark m-1"
+                className="btn btn-link btn-floating btn-lg text-light m-1"
                 href="#!"
                 role="button"
                 data-mdb-ripple-color="dark"
               >
-                <i className="bi test-light bi-github"></i>
+                <i className="bi  bi-github"></i>
               </a>
             </section>
             {/* Section: Social media */}
