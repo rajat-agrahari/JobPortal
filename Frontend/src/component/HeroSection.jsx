@@ -15,7 +15,7 @@ const HeroSection = () => {
         <div className="card-body">
           <h1 className="card-title fw-bolder">
             Search, Apply & <br />
-            Get Your <span>Dream Jobs</span>
+            Get Your <span className={`${style.purpuleClr}`}>Dream Jobs</span>
           </h1>
           <p className="card-text">
             With supporting text below as a natural lead-in to additional
