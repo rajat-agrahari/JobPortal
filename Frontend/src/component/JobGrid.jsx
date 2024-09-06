@@ -38,7 +38,7 @@ const JobGrid = () => {
             </p>
             <small className="d-block">2 days ago</small>
             <a href="#" className="btn btn-primary mt-2">
-              Apply
+              View Job
             </a>
           </div>
         </div>
@@ -76,7 +76,7 @@ const JobGrid = () => {
             </p>
             <small className="d-block">2 days ago</small>
             <a href="#" className="btn btn-primary mt-2">
-              Apply
+              View Job
             </a>
           </div>
         </div>
@@ -114,7 +114,7 @@ const JobGrid = () => {
             </p>
             <small className="d-block">2 days ago</small>
             <a href="#" className="btn btn-primary mt-2">
-              Apply
+              View Job
             </a>
           </div>
         </div>
