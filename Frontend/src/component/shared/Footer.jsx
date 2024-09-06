@@ -9,7 +9,7 @@ const Footer = () => {
       <div className=" mt-3">
         <footer
           className="text-center text-white"
-          style={{ backgroundColor: "#f1f1f1" }}
+          style={{ backgroundColor: "#190603" }}
         >
           {/* Grid container */}
           <div className="container pt-4">
@@ -22,7 +22,7 @@ const Footer = () => {
                 role="button"
                 data-mdb-ripple-color="dark"
               >
-                <i className="bi bi-facebook"></i>
+                <i className="bi test-light bi-facebook"></i>
               </a>
 
               {/* Twitter */}
@@ -32,7 +32,7 @@ const Footer = () => {
                 role="button"
                 data-mdb-ripple-color="dark"
               >
-                <i className="bi bi-facebook"></i>
+                <i className="bi test-light bi-facebook"></i>
               </a>
 
               {/* Google */}
@@ -42,7 +42,7 @@ const Footer = () => {
                 role="button"
                 data-mdb-ripple-color="dark"
               >
-                <i className="bi bi-google"></i>
+                <i className="bi test-light bi-google"></i>
               </a>
 
               {/* Instagram */}
@@ -52,7 +52,7 @@ const Footer = () => {
                 role="button"
                 data-mdb-ripple-color="dark"
               >
-                <i className="bi bi-instagram"></i>
+                <i className="bi test-light bi-instagram"></i>
               </a>
 
               {/* Linkedin */}
@@ -62,7 +62,7 @@ const Footer = () => {
                 role="button"
                 data-mdb-ripple-color="dark"
               >
-                <i className="bi bi-linkedin"></i>
+                <i className="bi test-light bi-linkedin"></i>
               </a>
               {/* Github */}
               <a
@@ -71,7 +71,7 @@ const Footer = () => {
                 role="button"
                 data-mdb-ripple-color="dark"
               >
-                <i className="bi bi-github"></i>
+                <i className="bi test-light bi-github"></i>
               </a>
             </section>
             {/* Section: Social media */}
@@ -80,11 +80,11 @@ const Footer = () => {
 
           {/* Copyright */}
           <div
-            className="text-center text-dark p-3"
-            style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
+            className="text-center text-light p-3"
+            style={{ backgroundColor: "#000" }}
           >
-            © 2020 Copyright:
-            <a className="text-dark text-decoration-none" href="#">
+            © 2020 Copyright:&nbsp;
+            <a className="text-light text-decoration-none" href="#">
               JobPulse.com
             </a>
           </div>
