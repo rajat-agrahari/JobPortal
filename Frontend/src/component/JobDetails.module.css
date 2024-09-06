@@ -1,0 +1,10 @@
+.jobContainer{
+background: #faf3fb;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+.compImg{
+  width:-webkit-fill-available;
+  padding-top: 20px;
+  padding-right: 8px;
+}
