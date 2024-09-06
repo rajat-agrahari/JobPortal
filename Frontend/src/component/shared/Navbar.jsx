@@ -5,7 +5,10 @@ import styles from "./Navbar.module.css";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+      <nav
+        className="navbar sticky-top navbar-expand-lg bg-body-tertiary"
+        data-bs-theme="dark"
+      >
         <div className="container-fluid offset-lg-2">
           <a className="navbar-brand fw-700" href="#">
             JobPulse

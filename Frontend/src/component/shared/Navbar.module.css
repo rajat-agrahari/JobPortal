@@ -1,7 +1,9 @@
 
 .loginBtn{
   background-color: #925dec;
+  color: #fff;
 }
 .loginBtn:hover{
   background: #b18bf2;
+  color: #fff;
 }
