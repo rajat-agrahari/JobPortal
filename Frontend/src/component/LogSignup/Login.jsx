@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import "./LogSign.css";
 import { Header, Input, Options, FooterLogin } from "./Components_Form";
 import Navbar from "../shared/Navbar";
 import Footer from "../shared/Footer";
