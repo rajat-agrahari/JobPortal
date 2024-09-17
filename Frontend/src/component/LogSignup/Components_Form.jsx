@@ -1,5 +1,10 @@
 import { React, useState } from "react";
 
+// Please Fix the login signup code-- fix the Usestate Hooks--- In LogSingup folder---
+// You have to fix -- Login.jsx
+//  signup.jsx
+//  component_form.jsx
+
 const [formData, setFormData] = useState({
   email: "",
   password: "",
