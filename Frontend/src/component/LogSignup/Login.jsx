@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import ReactDOM from "react-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import "./LogSign.css";
 import { Header, Input, Options, FooterLogin } from "./Components_Form";
 import Navbar from "../shared/Navbar";
 import Footer from "../shared/Footer";

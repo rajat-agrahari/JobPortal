@@ -1,0 +1,10 @@
+/* body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
