@@ -1,5 +1,27 @@
-import React from "react";
+import { React, useState } from "react";
 
+const [formData, setFormData] = useState({
+  email: "",
+  password: "",
+  role: "",
+});
+
+const handleInputChange = (event) => {
+  const { name, value } = event.target;
+  // const name = event.target.name;
+  // const value = event.target.value;
+  // setFormData((prevFormData) => ({ ...prevFormData, [name]: value }));
+  console.log(event.target.value);
+  console.log(event.target.name);
+  setFormData({ ...formData, [name]: value });
+};
+
+const handleSubmit = (event) => {
+  event.preventDefault();
+  // add your login logic here
+
+  console.log("Login submitted:", formData);
+};
 export function Header(props) {
   return (
     <>
@@ -23,6 +45,10 @@ export function Input(props) {
         className="form-control"
         id={props.id}
         placeholder={props.title}
+        value={props.value}
+        onChange={(e) => {
+          e.target.value;
+        }}
       />
       <label htmlFor={props.id}>{props.title}</label>
     </div>
@@ -38,7 +64,9 @@ export function Options(props) {
           type="radio"
           name="options"
           id={props.opt}
-          value={props.opt}
+          value={props.value}
+          checked={props.checked} // Update the checked state based on the props.value
+          onChange={props.onChange}
         />
         <label className="form-check-label" htmlFor={props.opt}>
           {props.title}
@@ -72,9 +100,7 @@ export function Profile(props) {
 export function FooterLogin(props) {
   return (
     <>
-      <button className="btn btn-primary w-100 py-2" type="submit">
-        {props.title}
-      </button>
+      <button className="btn btn-primary w-100 py-2">{props.title}</button>
       <p className="text-center ">
         {props.text} <a href={props.link}>{props.anotherPage}</a>
       </p>

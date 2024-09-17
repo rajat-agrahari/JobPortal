@@ -6,7 +6,7 @@ import style from "./HeroSection.module.css";
 const HeroSection = () => {
   return (
     <>
-      <div className="card text-center mt-5 mx-auto border-0">
+      <div className="card text-center mt-3 mx-auto border-0">
         <div
           className={`${style.heroHead} card-header mx-auto mt-5 rounded-pill px-3  font-medium`}
         >
@@ -42,7 +42,8 @@ const HeroSection = () => {
         </div>
       </div>
       <h2 className={style.jobHeading}>
-        <span>Latest & Top&nbsp;</span>Job Openings
+        <span className={`${style.purpuleClr}`}>Latest & Top&nbsp;</span>Job
+        Openings
       </h2>
     </>
   );
